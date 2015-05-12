@@ -63,3 +63,7 @@
     background: rgb(236, 28, 35);
     color: wheat;
 }
+
+#program .filmic {
+    height: auto!important;
+}
