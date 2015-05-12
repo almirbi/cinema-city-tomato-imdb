@@ -1,4 +1,4 @@
-# cinema-city-tomato-imdb
+# Cinemacity Sarajevo - IMDB and Rotten Tomatoes ratings
 Adds IMDB and Tomatoes ratings to http://cinemacity.ba
 
 
