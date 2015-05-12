@@ -1,0 +1,19 @@
+{
+    "name": "Cinemacity Sarajevo movie ratings",
+    "manifest_version": 2,
+    "version": "0.8",
+    "description": "Add IMDB and Tomatoes rating to every movie listed on the cinemacity.ba site",
+    "background": "background.html",
+    "content_scripts": [ {
+        "js": [ "background.js" ],
+        "matches": [ "http://cinemacity.ba/*", "http://www.cinemacity.ba/*"],
+        "css" : [ "style.css" ]
+    }],
+    "web_accessible_resources": [
+        "*.png", "*.gif"
+        ],
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}

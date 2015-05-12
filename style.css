@@ -1,0 +1,65 @@
+.ratings p {
+    margin-left: 5px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    top: 3px;
+}
+
+.ratings img {
+    display: inline-block;
+    float: none!important;
+}
+
+.spinner {
+    margin: 3px 3px 0 8px;
+}
+
+.tomato-image {
+    margin-left: 50px;
+}
+
+.ratings {
+    position: relative;
+}
+
+.tomato {
+    color: #EA1C22!important;
+}
+
+.imdb {
+    color: #E3B921!important;
+}
+
+.ratings p.no-info {
+    font-size: 15px!important;
+    color: gray!important;
+}
+
+.sort-ratings-button {
+    border: none;
+    border-radius: 5px;
+    padding: 4px 6px 4px 6px;
+    font-weight: bold;
+    margin: 2px;
+    border: 1px solid white;
+}
+
+.sort-ratings-button:hover {
+    cursor: pointer;
+}
+
+.sort-ratings-button.active {
+    border: 1px solid black;
+}
+
+#sort-imdb {
+    background: #E8C336;
+
+}
+
+#sort-tomato {
+    background: rgb(236, 28, 35);
+    color: wheat;
+}
